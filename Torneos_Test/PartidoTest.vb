@@ -11,6 +11,7 @@ Module PartidoTest
             'jugador1.FechaNacimiento = #10/10/1980#
             'local.addJugador(jugador1)
             Dim partido1 As New Partido
+            partido1.Fecha = #10/10/2017#
             partido1.Local = local
             partido1.Visitante = visitante
             partido1.Referee = referee
@@ -19,7 +20,9 @@ Module PartidoTest
             partido1.nuevoGolLocal(20)
             partido1.nuevoGolVisitante(45)
             partido1.nuevoGolVisitante(90)
+            partido1.finalizado()
 
+            partido1.nuevoGolLocal(110)
             Console.WriteLine(partido1.ToString)
         Catch ex As Exception
             Console.WriteLine(ex.Message)

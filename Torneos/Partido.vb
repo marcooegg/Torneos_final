@@ -32,7 +32,9 @@
     End Property
     Public Property Fecha As Date
         Set(value As Date)
-            'implementar exceptions
+            If value > Date.Today Then
+                Throw New Exception("La fecha del partido no puede ser posterior al dia de hoy")
+            End If
             If Not _finalizado Then _fecha = value
         End Set
         Get
