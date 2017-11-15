@@ -1,5 +1,5 @@
 ﻿Imports Torneos
-Module PersonaTest
+Module JugadorTest
 
     Sub Main()
         Dim persona1 As Persona
@@ -14,7 +14,7 @@ Module PersonaTest
             Catch ex As Exception
                 Console.WriteLine(ex.Message)
             End Try
-        Loop While persona1.FechaNacimiento = Nothing
+        Loop While persona1.FechaNacimiento = Nothing Or persona1.Nombre = ""
         Console.ReadKey()
     End Sub
 

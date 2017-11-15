@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{89512B43-5F60-4A36-9594-A897F64BD85F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Torneos_Test.PersonaTest</StartupObject>
+    <StartupObject>Torneos_Test.PartidoTest</StartupObject>
     <RootNamespace>Torneos_Test</RootNamespace>
     <AssemblyName>Torneos_Test</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -68,7 +68,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PersonaTest.vb" />
+    <Compile Include="JugadorTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -84,6 +84,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PartidoTest.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

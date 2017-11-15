@@ -36,7 +36,7 @@
         _fechaNacimiento = Nothing
         _nombre = ""
     End Sub
-    Public Sub New(FechaNacimiento As Date, Nombre As String)
+    Public Sub New(Nombre As String, FechaNacimiento As Date)
         Me.New()
         Me.FechaNacimiento = FechaNacimiento
         Me.Nombre = Nombre
@@ -49,5 +49,8 @@
             Return DateDiff(DateInterval.Year, fecha, Date.Today) - 1
         End If
         Return DateDiff(DateInterval.Year, fecha, Date.Today)
+    End Function
+    Public Overrides Function ToString() As String
+        Return Nombre
     End Function
 End Class
