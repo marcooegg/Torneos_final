@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Torneos", "Torneos\Torneos.vbproj", "{D7B2F056-F4D6-4B9E-8F8A-7584362B7493}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Torneos_Test", "Torneos_Test\Torneos_Test.vbproj", "{89512B43-5F60-4A36-9594-A897F64BD85F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D7B2F056-F4D6-4B9E-8F8A-7584362B7493}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7B2F056-F4D6-4B9E-8F8A-7584362B7493}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7B2F056-F4D6-4B9E-8F8A-7584362B7493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89512B43-5F60-4A36-9594-A897F64BD85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89512B43-5F60-4A36-9594-A897F64BD85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89512B43-5F60-4A36-9594-A897F64BD85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89512B43-5F60-4A36-9594-A897F64BD85F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
